@@ -19,20 +19,20 @@ import org.springframework.web.servlet.view.
  */
 @Configuration
 @EnableWebMvc//启用SpringMVC
-@ComponentScan("spitter.web")//启用组件扫描
+@ComponentScan("spittr.web")//启用组件扫描
 public class WebConfig
         extends WebMvcConfigurerAdapter {
     /**
      * 配置JSP视图解析器
      * 它会查找JSP文件， 在查找的时候， 它会在视图名称上加一个特定的前缀和
-     * 后缀（ 例如， 名为home的视图将会解析为WEB-INFviews/home.jsp）
+     * 后缀（ 例如， 名为home的视图将会解析为/WEB-INF/views/home.jsp）
      * @return
      */
     @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver resolver =
                 new InternalResourceViewResolver();
-        resolver.setPrefix("/WEB-INF/views/");
+        resolver.setPrefix("/WEB-INF/");
         resolver.setSuffix(".jsp");
         resolver.setExposeContextBeansAsAttributes(true);
         return resolver;

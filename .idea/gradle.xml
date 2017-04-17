@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../SpringiA4_SourceCode" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../java/soft/gradle-3.4" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../SpringiA4_SourceCode" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../java/soft/gradle-3.4" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../SpringiA4_SourceCode/sprittr" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../java/soft/gradle-3.4" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../SpringiA4_SourceCode/sprittr" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

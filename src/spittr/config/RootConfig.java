@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  * Time: 16:08
  */
 @Configuration
-@ComponentScan(basePackages={"spitter"},
+@ComponentScan(basePackages={"spittr"},
         excludeFilters={
                 @Filter(type= FilterType.ANNOTATION, value=EnableWebMvc.class)
         })

@@ -1,10 +1,15 @@
-<%@ page contentType="text/html; charset=GBK" language="java" errorPage="" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
 <html>
 <head>
-    <title>欢迎</title>
+    <title>Spittr</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="<c:url value="/resources/style.css" />" >
 </head>
 <body>
-欢迎学习 Java Web 知识,现在的时间是:
-<%out.println(new java.util.Date());%>
+<h1>Welcome to Spittr</h1>
+<a href="<c:url value="/spittles" />">Spittles</a> |
+<a href="<c:url value="/spitter/register" />">Register</a>
 </body>
 </html>
